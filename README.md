@@ -55,6 +55,10 @@ This Silver Bullet repo is a monorepo using npm's "workspaces" feature.
 
 Requirements: node 16+ and npm 8+ as well as C/C++ compilers (for compiling SQLite, on debian/ubuntu style systems you get these via the `build-essential` package)
 
+> **Note**
+> If you are runing on MacOS Monterey (12.4) or later, sqlite might complain about not having python installed. 
+> Run `npm config set python python3` before installing the deps.
+
 To run, after clone:
 
 ```shell
